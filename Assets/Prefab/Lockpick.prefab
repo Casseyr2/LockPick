@@ -91,8 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c24db08bd91e35b439c4d6d1293b230c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swipeToleranceX: 0
-  swipeToleranceY: 0
+  swipeToleranceX: 25
+  swipeToleranceY: 15
   pinPositions: []
   moveToleranceY: 0
   offsetObject: {fileID: 3206301413306116711}
