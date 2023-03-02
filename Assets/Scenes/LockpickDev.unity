@@ -383,6 +383,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 952538778547849175, guid: 857a4e17fd850c64b9b8111e27d5e168, type: 3}
+      propertyPath: moveToleranceY
+      value: 109
+      objectReference: {fileID: 0}
+    - target: {fileID: 952538778547849175, guid: 857a4e17fd850c64b9b8111e27d5e168, type: 3}
       propertyPath: pinPositions.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -540,6 +544,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &808229121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 952538778547849175, guid: 857a4e17fd850c64b9b8111e27d5e168, type: 3}
+  m_PrefabInstance: {fileID: 474877617}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24db08bd91e35b439c4d6d1293b230c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &862996971
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,3 +759,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6935676855973841560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6948794112370561792, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: lockpick
+      value: 
+      objectReference: {fileID: 808229121}
+    - target: {fileID: -6948794112370561792, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: rotateSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -6948794112370561792, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: pinsArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -6948794112370561792, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: pinsArray.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049328, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676856533049343, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_Name
+      value: TurningTool
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935676857047059301, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: effe7acef4f5e2e41b96351f8a8f4a1b, type: 3}
