@@ -41,7 +41,8 @@ public class TurningTool : MonoBehaviour
                         transform.Rotate(Vector3.back, -rotateSpeed * Time.deltaTime);
                     }
                     */
-                    
+
+                    // Turning tool moves forward on X axis
                     if (startingPosition < touch.position.x)
                     {
                         transform.Rotate(Vector3.back, rotateSpeed * Time.deltaTime);
